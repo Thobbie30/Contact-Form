@@ -1,0 +1,54 @@
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    margin-top: 10px;
+  }
+
+  input,
+  textarea {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    width: 500px;
+}
+
+  .error {
+    color: red;
+  }
+  
+  .success {
+    color: green;
+    margin-bottom: 1rem;
+  }
+
+  button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px, 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    font-size: 16px;
+  }
+
+  button[type="submit"]:hover {
+    background-color: #0069d9;
+  }
+  
+  button[type="submit"]:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  body {
+    background-color: blueviolet;
+  }
